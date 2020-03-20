@@ -1,9 +1,6 @@
 package openclosedprinciple.open_closed;
 
-import openclosedprinciple.open_closed.InterfaceSegregation.toys.HouseToy;
-import openclosedprinciple.open_closed.InterfaceSegregation.toys.ToyBuilder;
-import openclosedprinciple.open_closed.InterfaceSegregation.toys.ToyCar;
-import openclosedprinciple.open_closed.InterfaceSegregation.toys.ToyPlane;
+import openclosedprinciple.open_closed.InterfaceSegregation.toys.*;
 import org.junit.jupiter.api.Test;
 
 public class ToyTest {
@@ -23,5 +20,10 @@ public class ToyTest {
     public void testBuildPlaneToy(){
         ToyPlane toyPlane = ToyBuilder.buildPlaneToy();
         System.out.println(toyPlane);
+    }
+    @Test
+    public void testBuildSubmarineToy(){
+        ToySubmarine toySubmarine = ToyBuilder.buildSubmarineToy();
+        System.out.println(toySubmarine);
     }
 }

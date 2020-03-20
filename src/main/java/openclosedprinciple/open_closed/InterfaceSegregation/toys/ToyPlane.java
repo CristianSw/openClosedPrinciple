@@ -5,9 +5,10 @@ import openclosedprinciple.open_closed.InterfaceSegregation.interfaces.Move;
 import openclosedprinciple.open_closed.InterfaceSegregation.interfaces.Toy;
 
 public class ToyPlane implements Toy, Move, Fly {
-    String name;
-    String color;
-    double price;
+
+    private String name;
+    private String color;
+    private double price;
 
 
     @Override
@@ -41,6 +42,6 @@ public class ToyPlane implements Toy, Move, Fly {
                 "name='" + name + '\'' +
                 ", color='" + color + '\'' +
                 ", price=" + price +
-                " is able to fly, move"+'}';
+                ", is able to fly, move"+'}';
     }
 }

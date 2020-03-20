@@ -1,42 +1,40 @@
 package openclosedprinciple.open_closed.InterfaceSegregation.toys;
 
-import openclosedprinciple.open_closed.InterfaceSegregation.interfaces.Move;
+import openclosedprinciple.open_closed.InterfaceSegregation.interfaces.Swim;
 import openclosedprinciple.open_closed.InterfaceSegregation.interfaces.Toy;
 
-import java.sql.SQLOutput;
+public class ToySubmarine implements Toy, Swim {
 
-public class ToyCar implements Toy, Move {
     private String name;
     private String color;
     private double price;
 
-
     @Override
-    public void move() {
-        System.out.println("Car is able to move!");
+    public void swim() {
+
     }
 
     @Override
-    public void setName(String name) {
+    public void setName(final String name) {
         this.name = name;
     }
 
     @Override
-    public void setColor(String color) {
+    public void setColor(final String color) {
         this.color = color;
     }
 
     @Override
-    public void setPrice(double price) {
+    public void setPrice(final double price) {
         this.price = price;
     }
 
     @Override
     public String toString() {
-        return "ToyCar{" +
+        return "ToySubmarine{" +
                 "name='" + name + '\'' +
                 ", color='" + color + '\'' +
                 ", price=" + price +
-                ", is able to move"+'}';
+                ", able to swim"+'}';
     }
 }

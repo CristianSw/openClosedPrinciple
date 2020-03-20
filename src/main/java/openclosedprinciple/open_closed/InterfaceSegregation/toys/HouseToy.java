@@ -3,9 +3,9 @@ package openclosedprinciple.open_closed.InterfaceSegregation.toys;
 import openclosedprinciple.open_closed.InterfaceSegregation.interfaces.Toy;
 
 public class HouseToy implements Toy {
-    String name;
-    String color;
-    double price;
+    private String name;
+    private String color;
+    private double price;
 
 
     @Override

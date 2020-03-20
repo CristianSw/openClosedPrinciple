@@ -24,4 +24,12 @@ public class ToyBuilder {
         toyPlane.setPrice(42.15);
         return toyPlane;
     }
+
+    public static ToySubmarine buildSubmarineToy(){
+        ToySubmarine toySubmarine = new ToySubmarine();
+        toySubmarine.setName("MKT3000");
+        toySubmarine.setColor("Dark");
+        toySubmarine.setPrice(119.99);
+        return toySubmarine;
+    }
 }
