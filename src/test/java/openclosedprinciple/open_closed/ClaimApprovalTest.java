@@ -1,5 +1,8 @@
 package openclosedprinciple.open_closed;
 
+import openclosedprinciple.open_closed.OpenClosed.ClaimApprovalManager;
+import openclosedprinciple.open_closed.OpenClosed.HealthInsuranceSurveyor;
+import openclosedprinciple.open_closed.OpenClosed.VehicleInsuranceSurveyor;
 import org.junit.jupiter.api.Test;
 
 

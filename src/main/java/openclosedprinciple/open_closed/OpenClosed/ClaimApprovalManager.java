@@ -1,4 +1,4 @@
-package openclosedprinciple.open_closed;
+package openclosedprinciple.open_closed.OpenClosed;
 
 public class ClaimApprovalManager {
     public void processClaim(InsuranceSurveyor surveyor){

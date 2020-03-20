@@ -1,4 +1,4 @@
-package openclosedprinciple.open_closed;
+package openclosedprinciple.open_closed.OpenClosed;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
